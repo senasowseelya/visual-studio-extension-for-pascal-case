@@ -26,6 +26,15 @@ You can install this extension directly from the Visual Studio Marketplace. Foll
 4. Choose "Convert to Pascal Case".
 5. The selected text will be replaced with the PascalCase version.
 
+### Keyboard Shortcut
+
+You can also use a keyboard shortcut for quick access:
+
+1. Go to **Tools** -> **Options** -> **Keyboard** in Visual Studio.
+2. In the dropdown for "_Show commands containing_," select "_Tools.ConvertToPascalCase_."
+3. In the "_Press Shortcut Keys_" textbox, enter your desired key combination, for example, `(Ctrl+P, Ctrl+C)`.
+4. Click on "_Assign_," and then click "_OK_."
+   
 ## Contributions
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/senasowseelya/VsExtensionForPascalCase).
