@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\PascalCaseExtension\\PascalCaseExtension\\PascalCaseExtension.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\PascalCaseExtension\\PascalCaseExtension\\PascalCaseExtension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\PascalCaseExtension\\PascalCaseExtension\\PascalCaseExtension.csproj",
+        "projectName": "PascalCaseExtension",
+        "projectPath": "C:\\Projects\\PascalCaseExtension\\PascalCaseExtension\\PascalCaseExtension.csproj",
+        "packagesPath": "C:\\Users\\senasowseelya.v\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PascalCaseExtension\\PascalCaseExtension\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\senasowseelya.v\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[17.8.33-preview1, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[17.0.32112.339, )"
+            },
+            "Microsoft.VisualStudio.Shell.15.0": {
+              "target": "Package",
+              "version": "[17.7.37355, )"
+            },
+            "Microsoft.VisualStudio.TextManager.Interop": {
+              "target": "Package",
+              "version": "[17.7.37355, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
