@@ -1,37 +1,45 @@
-# VsExtensionForPascalCase
-An Extension for visual Studio that converts selected text to pascal case . 
+# Convert to Pascal Case
 
-This extension changes the selected text to Pascal Case.
+Convert to Pascal Case is a Visual Studio extension that allows you to easily convert text in the code editor to PascalCase. This extension simplifies the task of formatting text for variable names, class names, or any other identifier in your code.
 
-To Install from Visual Studio:
+## Features
 
-    1.Open Visual Studio.
-    2.Click on Extensions in the menu bar.
-    3.Click on "Manage Extensions".
-    4.From the online tab seacrh for "Convert To Pascal Case".
-    5.Click on it and then "Download".
+- Convert selected text to PascalCase with a single click.
+- Supports multi-line selections.
+- Ideal for improving code readability and consistency.
 
-To Install from marketplace:
-Use the below link  to download :
+## Installation
 
-  https://marketplace.visualstudio.com/items?itemName=VishnumolakalaSenaSowseelya.ConvertToPascalCaseExtension.
+You can install this extension directly from the Visual Studio Marketplace. Follow these steps:
 
-Once Installation is done you should be able to view the extension in the installed extensions tab from :
+1. Open Visual Studio.
+2. Navigate to the "Extensions" menu.
+3. Select "Manage Extensions."
+4. In the Extensions window, search for "Convert to Pascal Case."
+5. Click "Install" to add the extension to your Visual Studio environment.
 
-Extensions->ManageExtensions->Installed.
+## Usage
 
-Steps to Use:
+1. Open a code file in Visual Studio.
+2. Select the text you want to convert to PascalCase.
+3. Click on Tools in the menubar.
+4. Choose "Convert to Pascal Case".
+5. The selected text will be replaced with the PascalCase version.
 
-    1. Select text you want to convert to Pascal Case
-    2. Click on Tools in menubar.
-    3. click on Convert To Pascal Case (Ctrl+P,Ctrl+C).
+## Contributions
 
-You can also use shortcut (CTRL+P ,CTRL+C).
-To use shortcut:
-Configuration Steps:
-  1. Tools->Options->Keyboard.
-  2. In the dropdown for "_Show commands containing_" : select "_Tools.ConvertToPascalCase_". 
-  3. In "_Press Shortcut Keys" textbox : Enter (Ctrl+P ,Ctrl+C)"_.
-  4.Click on "_Assign_" and then "_Ok_"
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/senasowseelya/VsExtensionForPascalCase).
 
-After above 4 steps you will be now able to convert text to Pascal case using (Ctrp+P,Ctrl+C)
+## License
+
+This extension is licensed under the [MIT License](LICENSE).
+
+## Support
+
+For any questions or support requests, please contact [senasowseelya@gmail.com].
+
+## Author
+
+This extension is developed and maintained by [sena sowseelya].
+
+Enjoy using Convert Text to Pascal Case, and happy coding!
